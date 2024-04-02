@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+}
+
+.header{
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+body h2{
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.footer{
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
