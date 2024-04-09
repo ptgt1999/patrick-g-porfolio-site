@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Patrick T Gustafson Portfolio</title>
+    <title>Patrick T Gustafson Portfolio</title>  
     <link rel="stylesheet" href="./assets/css/style.css">
+    <ul>
+        <div class="topnav" id="myTopnav">
+            <div class="list">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </ul>    
     <style type="text/css">
         a:link{
             color: black;
@@ -25,15 +38,7 @@
 
 <body>
     <div class="header">
-        <a href="https://ptgt1999.github.io/patrick-g-porfolio-site/"><img src="assets/images/PG13 Coding LOGO (1).png" alt="PG13 Coding with an image of a Palm Tree"></a>
-        <ul>
-            <div class="list">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </div>
-        </ul>    
+        <a href="https://ptgt1999.github.io/patrick-g-porfolio-site/"><img src="assets/images/PG13 Coding LOGO (1).png" alt="PG13 Coding with an image of a Palm Tree"></a> 
     </div>
     <div class="body">
     <h2 id="about">About</h2>       
@@ -54,9 +59,12 @@
     <!-- <h3><a href="tel:321 443 8798">Call Me! +1 321 443 8798</a></h3> -->
     <h3><a href="https://www.linkedin.com/in/patricktgustafson" target="_blank">LinkedIn</a></h3>
     </div>
-    <!-- <button onclick="topFunction()" id="button" title="Go to top">Top</button> -->
+    <div class="floating-button">
+    <button  onclick="topFunction()" id="fb" title="Go to top">Top</button>
+    </div>
     <div class="footer">
         <h4><a href="https://media1.tenor.com/m/yz7x6pCVg3oAAAAC/hello-azumanga.gif" target="_blank">Thank You!</a></h4>
     </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

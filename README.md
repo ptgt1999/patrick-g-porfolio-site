@@ -18,6 +18,7 @@ https://www.javatpoint.com/
 https://www.w3schools.com/
 https://blog.hubspot.com/
 https://stackoverflow.com/
+https://www.linkedin.com/
 
 ## License
 
