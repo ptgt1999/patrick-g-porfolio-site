@@ -44,7 +44,7 @@ ul {
     display: none;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -52,15 +52,10 @@ ul {
 }
 
 .body {
-    padding: 30px;
-}
-
-#href{
     text-align: center;
-    justify-content: left;
 }
 
-.footer{
+.footer {
     padding: 30px;
     clear: both;
     text-align: center;
